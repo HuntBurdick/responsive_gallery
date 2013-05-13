@@ -1,4 +1,4 @@
 responsive_grid
 ===============
 
-css responsive grid utlizing less.
+css responsive gallery grid utlizing less.
