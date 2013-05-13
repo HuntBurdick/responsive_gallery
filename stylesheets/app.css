@@ -8,35 +8,6 @@
   margin: 0;
   padding: 0;
 }
-.proxima-regular {
-  font-family: "proxima-nova", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.proxima-semibold {
-  font-family: "proxima-nova", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-}
-.proxima-bold {
-  font-family: "proxima-nova", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
-.proxima-for-nav {
-  font-family: "proxima-nova", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-  font-size: 15px;
-}
-.trajan {
-  font-family: "trajan-pro", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
