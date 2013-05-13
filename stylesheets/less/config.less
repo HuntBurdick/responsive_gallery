@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+@black: #000000;
+
+@padding: 20px;
+
+@width1: 768px;
+@width2: 1072px;
+@width3: 1140px;
+
+@breakpoint_768: ~"only screen and (min-width: 768px)";
+@breakpoint_880: ~"only screen and (min-width: 880px)";
+@breakpoint_1072: ~"only screen and (min-width: 1072px)";
+@breakpoint_1140: ~"only screen and (min-width: 1140px)";
+
+@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+         ~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+         ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+         ~"only screen and (min-device-pixel-ratio: 1.5)";
+
+@green: rgb(147,166,51);
+@green_with_transparency: rgba(147,166,51,0.92);
+
+@dark-gray: #333333;
+
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+.no-margin-or-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.proxima-regular {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.proxima-semibold {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.proxima-bold {
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.proxima-for-nav {
+    .proxima-semibold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.25);
+    font-size: 15px;
+}
+
+.trajan {
+    font-family: "trajan-pro",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}

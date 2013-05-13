@@ -1,0 +1,48 @@
+@import url('lesshat.less');
+@import url('config.less');
+
+* {
+	.box-sizing(border-box);
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	padding:16px;
+}
+
+.full {
+	width: 100%;
+	clear:both;
+	img {
+		margin: 0px;
+    	padding: 3px;
+    	width: 100%;
+    	@media @breakpoint_768 {
+    		margin-top:-3px;
+    		margin-bottom:-3px;
+    	}	
+	}
+	.one {
+		width:100%;
+		@media @breakpoint_768 {
+			width: 25%;
+			float:left;
+		}
+	}
+	.half {
+		width: 100%;
+		@media @breakpoint_768 {
+			width: 50%;
+			float:left;
+		}
+	}
+	.three {
+		width:100%;
+		@media @breakpoint_768 {
+			width: 75%;
+			float:left;
+		}
+	}
+}
