@@ -59,6 +59,7 @@ img {
 .image_wrapper {
   width: 100%;
   height: auto;
+  margin: 5px 5px 0;
 }
 .full {
   width: 100%;

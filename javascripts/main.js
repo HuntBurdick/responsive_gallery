@@ -25,5 +25,7 @@ function adjust_hover() {
 		$(this).find('.ch_wrapper').height(parent_height);
 		$(this).find('.ch_wrapper').width(parent_width);
 
+		
+
 	});
 }
